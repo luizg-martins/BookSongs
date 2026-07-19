@@ -1,0 +1,3 @@
+-- Banco de dados do projeto BooksSongs
+-- Autor: Luiz
+-- Objetivo: Associar livros a músicas
