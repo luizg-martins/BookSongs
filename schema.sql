@@ -4,6 +4,7 @@
 CREATE TABLE livro (
 id_livro INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 nome TEXT NOT NULL,
+livros_box TEXT,
 autor TEXT,
 genero TEXT,
 saga TEXT,
