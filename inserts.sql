@@ -77,4 +77,15 @@ INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES
 ('V', 'Marcin Przybytowicz', 'Eletrônica, Trilha Sonora', 'Cyberpunk 2077 - Original Score', 154, 'E:\L1\js\booksSongs\albumCovers\cyberpunk_2077_original_score.jpeg')
 
 INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
-(6, 6, 8, '
+(6, 6, 8, 'Por favor, suplicou, agora...
+
+Um disco cinzento, a cor do céu de Chiba.
+
+Agora...
+
+O disco começou a rodar, cada vez mais depressa, tornando-se uma esfera de um cinzento mais pálido. Expandindo-se. E fluindo, fluorescendo para ele, um truque de origami de néon fluido, e o desenrolar da imagem do seu lar na distância imensurável, do seu país, num tabuleiro de xadrez de três dimensões que se estendia até o infinito. A visão interior abrindo-se para a pirâmide vermelha da Eastern Seabord Fission Authority, ardendo além dos cubos verdes do Mitsubishi Bank of America, e lá muito para o alto e para longe as espirais de sistemas militares, para sempre fora do seu alcance.
+
+E em algum lugar, ele ria, num espaço pintado de branco, os dedos distantes acariciando o aparelho e lágrimas de alívio escorrendo pela sua face.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
+('O Espadachim de Carvão', NULL, 'Affonso Solano', 'Fantasia, Aventura', 'O Espadachim de Carvão', , 'E:\L1\js\booksSongs\bookCovers\neuromancer.jpeg')
