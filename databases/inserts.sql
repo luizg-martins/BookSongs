@@ -189,3 +189,101 @@ um dos personagens mais poderosos que eu já vi em um livro, com combates empolg
 tendo uma história grandiosa, quase desesperançosa, como uma profecia onde tudo já está escrito, e Deep Shadow me lembra persistência, resiliência,
 características inerentes ao protagonista e a quem está do seu lado, que mesmo atráves de séculos e de diversas adversidades e inimigos, mesmo diante
 de uma profecia que parece inevitável, persistem diante de tudo.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
+('O SIlêncio dos Inocentes', NULL, 'Thomas Harris', 'Crime, Suspense, Mistério', 'Série Hannibal Lecter', 392, '\assets\bookCovers\o_silencio_dos_inocentes.jpeg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('Quid Pro Quo', 'Howard Shore', 'Orquestra, Trilha Sonora', 'The Silence Of The Lambs (Original Motion Picture Soundtrack)', 280, '\assets\albumCovers\the_silence_of_the_lambs.jpeg')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(15, 15, 6, 'Uma troca de informações passada por uma cela, era nesse sentido que a frase "Quid Pro Quo" ("uma coisa pela outra") foi dita, e
+infelizmente, eu não consigo associar essa música a uma cena específica, ou dizer que ela se encaixa perfeitamente com todo o livro, mas o clima que a
+música passa, com suas sutis elevações e constância remete a cadência do livro, lento, se revelando aos poucos, te mantendo preso, esperando sempre qual
+vai ser o próximo passo, de Buffalo Bill, de Clarice Sterling, e do personagem mais imprevísivel, genial, assustador, e o que da nome a essa saga:
+Hannibal Lecter.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
+('Carmilla', NULL, 'Sheridan Le Fanu', 'Terror, Suspense',  NULL, 176, '\assets\bookCovers\carmilla.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('Ghost Song', 'Max Ablitzer', 'Dark Ambient', 'Dark Violin Songs', 335, '\assets\albumCovers\dark_violin_songs.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(16, 16, 8, 'Pessoalmente, eu adoro a calma sombria que Ghost Song passa, como se fosse uma trilha sonora para uma casa antiga, onde um dia viveu uma
+família com certa condição financeira, onde uma jovem moça vagueava por entre corredores e escadarias de madeira maciça com a sua amiga, alguém por quem
+ela sentia uma atração inexplicável, quase metafísica, uma atração que parecia exaurir suas forças, tornando-a languida como sua amiga, em uma relação
+nociva, que apesar de torna-lá fraca, era poderosa o suficiente para que ela não conseguisse se livrar. Mas isso tudo já faz muitos anos, e hoje,
+próximo daquela casa, jaz um corpo, de alguém que deveria ter morrido a muito mais tempo do que aquele corpo diz.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
+('Vampiro', NULL, 'John Willian Polidori', 'Terror, Drama, Suspense', NULL, 00000, '\assets\bookCovers\carmilla.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('When Darkness Spoke', 'Peter Gundry', 'Celta, Dark Ambient', 'The Edge of Darkness', 247, '\assets\albumCovers\the_edge_of_darkness.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(17, 17, 7, 'Quando li esse pequeno conto que vem quase como um bônus no livro da Carmilla, eu não imaginava que um conto que aparentemente é tão
+simples me traria tamanha angústia, em uma das melhores retratações do que é o MAL que eu já vi em um livro. "When Darkness Spoke" pode ser traduzido
+para "Quando a Escuridão Falou", sendo uma música calma, arrastada, com uma progressão lenta, um mal que cresce lentamente, e o pior, assim como o conto,
+sem perturbações, sem nada no seu caminho, a música mantém um tom quase como de uma valsa sombria, uma música que pode ser apreciada, quase como o mal
+mostrado pelo Lord Ruthven, sutil, que não faz grandes alardes, mas está lá, e é invencível, se mostra invencível, do começo ao fim, e mesmo no final,
+nada, nem ninguém, pode detê-lo, e logo no final, a única elevação significativa da música, quase como se gritasse "O vilão venceu", seguido da calma
+que nos foi mostrado desde o começo da música, nada mudou, o mal começou vencendo, e terminou vencendo.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
+('All Tomorrows', NULL, 'C. M. Kosemen', 'Ficção Científica, Ficção Especulativa', NULL, 111, '\assets\bookCovers\all_tomorrows.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('Where Were Going', 'Hans Zimmer', 'Trilha Sonora', 'Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]', 461, '\assets\albumCovers\interstellar_soundtrack.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(18, 18, 5, 'Já faz um tempo que All Tomorrows se tornou bem conhecido, em boa parte graças aos Qu, um dos maiores vilões da obra, e apesar de realmente
+o que acontece entre eles e a humanidade ser marcante e, no mínimo, perturbador, All Tomorrows é sobre evolução, persistência, e tempo, sobre a jornada de
+1 bilhão de anos da humanidade e todos os seus maiores trunfos e intemperies, e até pelo nome traduzido da música ("Para onde vamos") você já consegue
+imaginar o motivo dela ter sido escolhida, não para simbolizar grandes batalhas ou acontecimentos, mas o avanço calmo, progressivo, constante, as vezes
+devagar, as vezes rápido, mas sempre em frente, sempre seguindo, sempre evoluindo.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES
+('As Damas de Afrodite', NULL, 'Christian Couto', 'Romance com ação, Fantasia', NULL, 213, '\assets\bookCovers\as_damas_de_afrodite.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('West Coast', 'ShadowStep', 'Underground', 'West Coast Instrumental (Tiktok Version) (Remix)', 76, '\assets\albumCovers\west_coast_instrumental.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(19, 19, 4, 'Estaria mentindo se dissesse que tenho grande apreço por As Damas de Afrodite, ou por West Coast, mas não poderia deixar esse livro de fora
+da minha playlist, muito menos deixar de dar o mínimo de atenção para tal, e West Coast possui um tom mais "urbano", combina com as ruas, com algo mais
+mundano, mesmo em uma história com servos e servas de Ares e Afrodite, é interessante você olhar para o mundano, para uma convivência entre colegas, uma
+caminhada na rua em um tempo chuvoso, acredito que é mais em momentos de reflexão, e menos em momentos de ação, que o livro e essa música casam tão bem.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES
+('Saboroso Cadáver', NULL, 'Agustina Bazterrica', 'Horror, Distopia, Ficção', NULL, 192, '\assets\bookCovers\saboroso_cadaver.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('Confrontation', 'Wrong Organ', 'Underground, Trilha Sonora', 'Mouthwashing (Original Soundtrack)', 200, '\assets\albumCovers\mouthwashing_soundtrack.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(20, 20, 6, 'Saboroso Cadáver deveser o filme mais perturbador dentre todos que eu falei aqui e com certeza está entre um dos mais pesados, e a trilha
+sonora do jogo Mouthwashing, especificamente essa música, passam um desconforto que fazem com que essa música seja a que mais me dá vontade de pular
+da minha playlist de músicas para livros. Suas batidas parecem descompassadas, seu ritmo é acelerado, como se algo ruim que já estava vindo de repente
+estivesse vindo muito mais depressa, como um desconforto, uma coceira que você quer coçar até arrancar sua pele, presa, consumindo, querendo se alimentar
+de você, uma sensação tão ruim e repugnante, e você a vê a sua volta, você sabe que ela está lá, você a nega, você não quer aquilo, MAS SABE QUE AQUILO VAI
+CONTINUAR PRESSIONANDO, TENTANDO SE APOSSAR DE VOCÊ, A IGNORÂNCIA, BRUTALIDADE, CONFORMISMO, TUDO VAI FAZER PARTE DE VOCÊ, ANTES QUE VOCÊ POSSA DISCORDAR,
+e quando você ver, você não vai mais ter olhos perturbadoramente humanos.')
+
+INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES
+('Elantris', NULL, 'Brandon Sanderson', 'Fantasia, Ação', NULL, 576, '\assets\bookCovers\elantris.jpg')
+
+INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
+('III (The Spirit)', 'Zavodila', 'Instrumental, Indie', 'The Music of Elantris', 323, '\assets\albumCovers\the_music_of_elantris.jfif')
+
+INSERT INTO associacao (id_livro, id_musica, nivel_associacao, motivo_associacao) VALUES 
+(21, 21, 7, 'Eu pessoalmente acho impossível escolher apenas uma música que se encaixa perfeitamente com toda a história de Elantris, com os altos e
+baixos do Príncipe Raoden, Lady Sarene e do Gyorn Hrathen, mas se tivesse que escolher um álbum, com certeza seria esse, criado por um fã especialmente
+para o livro, e se tivesse que escolher uma música desse álbum, seria essa, da para ver a progressão na música, a progressão de algo grande vindo, de
+uma descoberta que pode mudar o mundo, de um próximo passo em um jogo político, de uma desconfiança crescente no que deveria ser um dos seus maiores
+aliados, é possível ver tudo o que aconteceu na jornada de Arelon e de Elantris na mão de 3 personagens tão obstinados, como uma linha que estava sendo
+traçada desde o começo do livro, e graças a progressão cada vez mais grandiosa dessa música é possível ver essa linha sendo desenhada, como se marcando
+um ciclo, separando, causando um impacto no mundo com proporções avassaladoras, e eu concordo que um final grandioso para essa música faz falta, mas ao
+mesmo tempo, eu gosto bastante do final com sons de natureza, trás uma calmaria que uma batida agitada não traria, algo muito bem vindo para o final
+de Elantris.')
