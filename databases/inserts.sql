@@ -191,7 +191,7 @@ características inerentes ao protagonista e a quem está do seu lado, que mesmo
 de uma profecia que parece inevitável, persistem diante de tudo.');
 
 INSERT INTO livro (nome, livros_box, autor, genero, saga, paginas, cover) VALUES 
-('O SIlêncio dos Inocentes', NULL, 'Thomas Harris', 'Crime, Suspense, Mistério', 'Série Hannibal Lecter', 392, '\assets\bookCovers\o_silencio_dos_inocentes.jpeg');
+('O Silêncio dos Inocentes', NULL, 'Thomas Harris', 'Crime, Suspense, Mistério', 'Série Hannibal Lecter', 392, '\assets\bookCovers\o_silencio_dos_inocentes.jpeg');
 
 INSERT INTO musica (nome, artista, estilo, album, duracao, cover) VALUES 
 ('Quid Pro Quo', 'Howard Shore', 'Orquestra, Trilha Sonora', 'The Silence Of The Lambs (Original Motion Picture Soundtrack)', 280, '\assets\albumCovers\the_silence_of_the_lambs.jpeg');
